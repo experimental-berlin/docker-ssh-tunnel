@@ -1,2 +1,2 @@
 #!/bin/sh
-ssh -T -N -L *:$SSH_PORT:localhost:$SSH_PORT $SSH_TARGET
+ssh -T -N -L *:$SSH_TUNNEL_PORT:localhost:$SSH_TUNNEL_PORT $SSH_TUNNEL_TARGET
